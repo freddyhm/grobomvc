@@ -1,0 +1,1050 @@
+/* START - GLOBAL  */
+body
+{
+  /*!!!!!!!!!!!!!!!!!!!! UNCOMMENT AND DIE!!!!!!!!!!!!!!!!!!!!!!!!!! background-color: black;  - FHM */
+  font-family:'Helvetica';
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+}
+
+a {text-decoration: none; color:#fff;}
+a:visited {text-decoration: none; color:#fff;
+}
+
+.playbook
+{
+  width: 1024px;
+  height: 600px;
+  z-index:-3;
+  position: absolute;
+
+}
+
+.content
+{
+  position: absolute;
+  z-index:100;
+}
+
+.slides_container {
+  width: 1024px;
+  height: 600px;
+}
+
+.slides_container div {
+  width: 1024px;
+  height: 600px;
+  display:block;
+}
+
+#sleepSlideshow
+{
+  width: 1024px;
+  height: 600px;
+  position: absolute;
+  z-index:99;
+  display: none;
+  
+}
+
+#sleepSlideshow img
+{
+  width: 1024px;
+  height: 600px;
+}
+/* END - GLOBAL */
+
+/* START - HOME */
+
+#loadPage
+{
+  display: none;
+  z-index: 99;
+  position: absolute;
+}
+
+
+
+/* END - HOME
+
+/* START - MENU */
+
+#bckgdImg1
+{
+    z-index: -1;
+    position: absolute;
+    width:1024px;
+    height:600px;
+    margin:-2px 0px;
+    display:inline;
+}
+
+#bckgdImg2
+{
+   z-index: -2;
+  position: absolute;
+  width:1024px;
+  height:600px;
+  margin:-2px 0px;
+  display:inline;
+
+}
+
+.tutorialText
+{
+  position: absolute;
+  color: white;
+  z-index: 3;
+  font-size: 24px;
+  top: 277px;
+}
+
+#tutorialDiscover
+{
+  left: 233px;
+}
+
+#tutorialPlay
+{
+  left: 434px;
+  width: 132px;
+}
+
+#tutorialWatch
+{
+  left: 697px;
+}
+
+#tutorialIcons
+{
+  z-index: 3;
+  position: absolute;
+}
+
+#tutorialSign
+{
+  z-index: 3;
+  top: 339px;
+  position: absolute;
+  left: 361px;
+}
+
+#tutorialBckgd
+{
+  width: 1024px;
+  height: 600px;
+  z-index: 2;
+  background-color: black;
+  position: absolute;
+  opacity: 0.8;
+}
+
+#tutorialBckgdImg
+{
+  position: absolute;
+  z-index: 2;
+}
+
+#bckgdImg1
+{
+  z-index: -1;
+  position: absolute;
+  width:1024px;
+  height:600px;
+  margin:-2px 0px;
+  display:inline;
+
+}
+
+#bckgdImg2
+{
+  z-index: -2;
+  position: absolute;
+  width:1024px;
+  height:600px;
+  margin:-2px 0px;
+  display:inline;
+
+}
+
+#cartTabArea{
+  z-index: 2;
+  width: 655px;
+  height: 341px;
+  position: absolute;
+  top: 0px;
+  left: 369px;
+}
+
+.mainMenu
+{
+  width: 1024px;
+  height: 100px;
+  z-index: 1;
+  margin:474px 0px;
+  position: absolute;
+  left: 86px;
+  font-size: 18px;
+}
+
+.mainMenu table
+{
+  top: 20px;
+  position: relative;  
+}
+
+.mainMenu table td
+{
+  text-align: center;
+  color: white;
+  width: 152px;
+  height: 96px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menuTabs
+{
+  position: relative;
+  bottom: 28px;
+  width: 152px;
+}
+
+.menuName
+{
+  bottom: 12px;
+  position: relative;
+}
+
+#mainBkgdMenu
+{
+  width: 1024px;
+  height: 100px;
+  z-index: -1;
+  margin:495px 0px;
+  position: absolute;
+  background-color: black;
+  opacity: 0.35;
+  left:0px;
+}
+
+#selectedItem
+{
+background-color: grey;
+opacity: 0.75;
+left: 2px;
+position: absolute;
+z-index: 1;
+height: 95px;
+bottom: 4px;
+width: 127px;
+
+}
+
+#menuHome
+{
+  height: 140px;
+    left: -7px;
+    position: relative;
+    top: 70px;
+    width: auto;
+    z-index: 1;
+}
+
+.mainMenuList
+{
+  position:absolute;
+  z-index:1;
+}
+
+#subBkgdMenu{
+  background-color:black;
+  opacity:0.6;
+  z-index: 1;
+  margin:397px 0px;
+  position: absolute;
+  overflow: hidden;
+  width: 1024px; 
+  height: 105px;
+  color: white;
+  font-weight:bolder;
+  top:-7px;
+}
+
+.subMenu
+{
+  z-index: 1;
+  margin: 394px 0px;
+  position: absolute;
+  overflow-x: scroll;
+  width: 1024px;
+  height: 105px;
+  color: white;
+  top: -7px;
+  overflow-y: hidden;
+}
+
+.subMenuList table td{
+  height: 100px;
+  text-align: center;
+  padding-right: 53px;
+  white-space: nowrap;
+  padding-left: 29px;
+}
+
+.btnMenuNameNotSelected
+{
+  color:#3e3e3e;
+  font-family:'Helvetica';
+  font-size: 12px;
+  font-weight:bolder;
+  padding: 35px 21px;
+  z-index: 3;
+  text-align: center;
+}
+
+#specials
+{
+  
+}
+
+.menuNotSelected_2
+{
+  background-color: white;
+  text-align: center;
+  opacity: 0.9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.subMenuList
+{
+
+  z-index: 2;
+  position: absolute;
+}
+
+.itemDetailContainer
+{
+  background-image: url('../img/menu/common/bg_info.png');
+  width: 444px;
+  height: 390px;
+}
+
+#itemInfoWrapper
+{
+  bottom:34px;
+  position: relative;
+}
+
+.itemName
+{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Helvetica';
+  width: 278px;
+  position: absolute;
+  margin: 62px 29px;
+  text-align: center;
+  text-shadow: 0px 1px 5px black;
+  color: white;
+}
+
+.itemKorean
+{
+  font-size: 25px;
+  font-style: bold;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  margin: 130px 65px;
+  opacity: 0.97;
+  color: white;
+  text-align: center;
+}
+
+.itemDescription
+{
+  font-size: 23px;
+  font-style: italic;
+  width: 330px;
+  height: 120px;
+  position: absolute;
+  margin: 180px 24px;
+  opacity: 0.9;
+  color:white;
+  z-index: 2;
+}
+
+
+
+
+#grabIt
+{
+  top: 328px;
+  left: 57px;
+  position: relative;
+  z-index:1;
+}
+
+#touch
+{
+  top: 250px;
+  left: 270px;
+  position: absolute;
+  z-index:9;
+}
+
+.itemPrice
+{
+   color: #FFD200;
+    font-size: 28px;
+    font-weight: bold;
+    height: 55px;
+    margin: 295px 90px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 1px 5px black;
+    width: 150px;
+
+}
+
+.ratingStar
+{
+  
+  position: absolute;
+  margin: 128px 22px;
+}
+
+
+.ratingInfo
+{
+  position: absolute;
+  font-size: 11px;
+  font-weight:bold;
+  color: #FFD200;
+  opacity: 0.8;
+  width: 200px;
+  margin: 140px 172px;
+}
+
+#cartAction
+{
+  float: right;
+  position: relative;
+  bottom: 170px;
+
+}
+
+#cartRibbon
+{
+  float: right;
+  position: relative;
+  top:17px;
+  left:200px;
+}
+
+#cartList
+{
+  float: right;
+  position: relative;
+  top:17px;
+  left:200px;
+}
+
+#cartArea
+{
+  overflow-x: scroll;
+  height: 174px;
+  width: 800px;
+  overflow-y: hidden;
+}
+
+#cartTab
+{
+  left: 500px;
+  position: relative;
+  top: 10px;
+}
+
+#cart
+{
+  background-image: url('../img/menu/common/cart/bg_cart.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+  height: 600px;
+  width: 1024px;  
+  bottom: 130px; 
+  background-size: 140%
+}
+
+#cartItems
+{
+  position: relative;
+  margin-top: 12px;
+}
+
+.cartName
+{
+ position: relative;
+color: white;
+font-size:20px;
+bottom: 50px;
+text-align: center;
+vertical-align: middle;
+left: 0px;
+height: 50px;
+background-color: black;
+opacity: 0.8;
+  
+}
+
+.cartNum
+{
+  position: relative;
+  bottom: 200px;
+  text-align: center;
+  font-size: 46px;
+  color: white;
+  background-color: black;
+  opacity: 0.8;
+  height:77px;
+}
+
+
+#cartItems td
+{
+  width: 158px;
+}
+
+
+.cartDeleteItem
+{
+  position: relative;
+  bottom: 185px;
+  left: 200px;
+  opacity: 0.9;
+  z-index: 99;
+}
+
+#waitForServer
+{
+  display: none;
+  top: 5px;
+  position: relative;
+}
+
+#waitForServerBckgd
+{
+  background-color: green;
+  opacity: 0.5;
+  height: 400px;
+  top: 20px;
+  position: relative;
+}
+
+#waitForServerSign
+{
+  bottom: 382px;
+  z-index: 1;
+  left: 312px;
+  position: relative;
+
+}
+
+#LoadingWaiter
+{
+ bottom: 530px;
+z-index: 100;
+left: 425px;
+  position: absolute;
+}
+
+#waitForServerDone
+{
+  position: relative;
+  left: -19px;
+  bottom: 354px;
+}
+
+
+/* END - MENU */
+
+/* START - LIST MENU */
+
+#listBkgdMenu
+{
+  background: #ffffff 
+  background-size: auto;
+  -moz-box-shadow: 10px 0px 200px 0px #000000;
+  -webkit-box-shadow: 10px 0px 200px 0px #000000;
+  -o-box-shadow: 10px 0px 200px 0px #000000;
+  box-shadow: 10px 0px 200px 0px #000000;
+  border-radius: 0px;
+  margin: 0px;
+  border-top: none;
+  border-right: 10px solid #84a83b;
+  border-bottom: none;
+  border-left: none;
+  width: 520px;
+  height: 600px;
+  float:left;
+}
+
+table.gridtable {
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #666666;
+  border-collapse: collapse;
+  width:520px;
+  opacity: 0.9;
+}
+table.gridtable th {
+  border-width: 1px;
+  padding: 8px;
+  background-color: black;
+  opacity: 0.7;
+  -moz-box-shadow: 0px 1px 1px 0px #000000;
+  -webkit-box-shadow: 0px 1px 1px 0px #000000;
+  -o-box-shadow: 0px 1px 1px 0px #000000;
+  box-shadow: 0px 1px 1px 0px #000000;
+  color: white;
+  font-size: 22px;
+  height:30px;
+  width:155px;
+  font-weight: lighter;
+}
+table.gridtable td {
+  border-width: 1px;
+  padding: 8px;
+  height:155px;
+  width:155px;
+}
+
+.gridName_selected
+{
+  position: relative;
+text-align: center;
+color: white;
+background-color: #0076a3;
+opacity: 0.9;
+height: 70px;
+width: 150px;
+font-weight: lighter;
+}
+
+
+.gridName_notselected
+{
+  position: relative;
+text-align: center;
+color: white;
+background-color: black;
+opacity: 0.8;
+height: 70px;
+width: 150px;
+font-weight: lighter;
+}
+
+
+
+.gridPrice
+{
+  height: 20px;
+width: 150px;
+font-weight: bolder;
+position: relative;
+text-align: center;
+margin-top: -95px;
+}
+#listMenuContent
+{
+  position: absolute;
+  width:520px;
+  height:600px;
+  z-index:1;
+  top:0px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  background: url('../img/common/start_bg1.jpg');
+}
+
+#listInfoContent
+{
+  width: 494px;
+  height:600px;
+  float:right;
+  background: rgba(37, 38, 41, 0);
+  background-image: -moz-linear-gradient(270deg, rgba(37, 38, 41, 0) 26%, #000000 100%), url('../img/menu/common/listmenuBkgd_info.png');
+  background-image: -webkit-linear-gradient(270deg, rgba(37, 38, 41, 0) 26%, #000000 100%), url('../img/menu/common/listmenuBkgd_info.png');
+  background-image: -o-linear-gradient(270deg, rgba(37, 38, 41, 0) 26%, #000000 100%), url('../img/menu/common/listmenuBkgd_info.png');
+  background-image: linear-gradient(180deg, rgba(37, 38, 41, 0) 26%, #000000 100%), url('../img/menu/common/listmenuBkgd_info.png');
+  background-repeat: repeat;
+}
+
+.itemNameList
+{
+  font-size: 30px;
+font-weight: bold;
+font-family: 'Helvetica';
+width: 400px;
+position: absolute;
+margin: 100px 47px;
+text-align: center;
+text-shadow: 0px 1px 5px black;
+color: white;
+}
+#itemPictureList
+{
+  width:400px;
+  height:175px;
+  background-color: white;
+  position: relative;
+  top: 180px;
+left: 52px;
+
+}
+.itemDescriptionList
+{
+width: 400px;
+height: 150px;
+font-size: 18px;
+font-style: italic;
+position: absolute;
+opacity: 0.9;
+color: white;
+z-index: 2;
+overflow-y: scroll;
+font-weight: lighter;
+top: 360px;
+left: 580px;
+}
+
+.itemPriceList
+{
+   color: #FFD200;
+font-size: 28px;
+font-weight: bold;
+height: 55px;
+position: absolute;
+text-align: center;
+text-shadow: 0 1px 5px black;
+width: 150px;
+top: 530px;
+left: 590px;
+}
+
+#grabItList
+{
+  position: relative;
+  z-index:1;
+  top: 330px;
+left: 235px;
+}
+
+
+/* END - LIST MENU */
+
+/* START - ERROR */
+#updatemsg
+{
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  width: 700px;
+  height: 300px;
+  margin: -460px 160px;
+  position: absolute;
+  border: 5px solid rgba(255, 255, 255, 0.7);
+   -moz-box-shadow: 0px 5px 10px 0px #000000;
+  -webkit-box-shadow: 0px 5px 10px 0px #000000;
+  -o-box-shadow: 0px 5px 10px 0px #000000;
+  box-shadow: 0px 5px 10px 0px #000000;
+
+}
+
+#warning
+{
+    position: relative;
+    top: 0;
+    left:30px;
+}
+
+#btn_error
+{
+  position: absolute;
+margin: -645px 160px;
+
+
+}
+
+#content_message
+{
+  color: #585858;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    height: 300px;
+    left: 261px;
+    position: relative;
+    top: -374px;
+    width: 400px;
+}
+#header_message
+{ 
+  color: #333333;
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: bolder;
+    height: 300px;
+    left: 260px;
+    position: relative;
+    top: -153px;
+    width: 600px;
+}
+/* END - ERROR */
+
+/* START - LOADING */
+#loading
+{
+ left: 243px;
+    position: absolute;
+    top: 415px;
+    z-index: 10;
+}
+
+#main_logo
+{
+   margin: -610px 130px;
+   position:absolute;
+   z-index: 1;
+}
+
+
+/* END - LOADING */
+
+/* START - HOME */
+
+#btn_intmenu
+{
+  top: 247px;
+}
+
+#btn_videos
+{
+  left: 689px;
+top: 254px;
+}
+
+#btn_games
+{
+  left: 341px;
+top: 250px;
+}
+
+.shadow
+{
+  z-index: 3;
+  width: 341px;
+  height:600px;
+     -moz-box-shadow: inset 0px 0px 250px 0px #000000;
+  -webkit-box-shadow: inset 0px 0px 250px 0px #000000;
+  -o-box-shadow: inset 0px 0px 250px 0px #000000;
+  box-shadow: inset 0px 0px 250px 0px #000000;
+  position: absolute;
+}
+
+#shadowMenu
+{
+    float: left;
+
+}
+
+#shadowGames
+{
+  left: 341px;
+
+}
+
+#shadowVideos
+{
+  left: 682px;
+
+}
+
+
+#menu_intmenu
+{
+   background-image:url('../img/home/bg_menu.jpg');
+    float: left;
+  width: 341px;
+  height:600px;
+}
+
+.sectionLinks
+{
+  z-index: 3;
+  position: absolute;
+}
+
+
+#menu_games
+{
+  float: left;
+  width: 341px;
+  height:600px;
+  background-image:url('../img/home/bg_game.jpg');
+
+}
+
+#menu_videos
+{
+  float: right;
+  width: 341px;
+  height:600px;
+  background-image:url('../img/home/bg_video.jpg');
+
+
+}
+
+
+
+
+/* END - HOME */
+
+/* START - VIDEO */
+
+
+#video
+{
+position: relative;
+bottom: 12px;
+}
+
+#video_menu
+{
+position: relative;
+bottom: 26px;
+display: inline;
+
+}
+#video_title
+{
+  color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: bold;
+    margin:-100px 200px;
+    position: absolute;
+    width: 595px;
+    z-index:1;
+    text-align: center;
+}
+
+#video_navbar
+{
+  width: 1024px;
+  height: 120px;
+  background-color: black;
+  margin: -124px 0;
+  opacity: 0.5;
+   position: absolute;
+  z-index: 0;
+}
+
+
+#btn_video_next
+{
+  position: absolute;
+  z-index:1;
+  float: right;
+  margin:-213px 800px;
+}
+
+#btn_video_home{
+  position: absolute;
+bottom: 0px;
+z-index: 1;
+}
+/* END - VIDEO */
+
+/* START - GAME */
+#header_game
+{
+  position: absolute;
+  z-index: 1;
+  top:0px;
+}
+
+#dev
+{
+  font-size: 20px;
+  font-weight: normal;
+}
+#msg_game
+{ 
+ position: absolute;
+  z-index: 1;
+  bottom:150px;
+  left:450px;
+  font-size: 35px;
+  font-weight: bold;
+  color:white;
+  text-shadow: #000000 0px 1px 5px;
+}
+
+
+#game_msg
+{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+    border: 5px solid rgba(255, 255, 255, 0.7);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 5px 10px 0 #000000;
+    height: 220px;
+    margin: -250px 160px;
+    position: absolute;
+    width: 700px;
+}
+
+#icon_game
+{
+  position: absolute;
+  left:390px;
+  top:125px;
+}
+#btn_gamehome
+{
+position: absolute;
+margin: -150px 310px;
+}
+
+
+/* END - GAME */
+
+/* START - RANDOMBOX GAME */
+
+#randomboxBoxArea
+{
+  margin:auto;
+  z-index:1;
+  position: absolute;
+  top: 155px;
+  left: 30px;
+}
+
+#randomboxTimer
+{
+  font-family: 'VT323', cursive;
+  font-size:175px;
+  color:white;
+  width:400px;
+  height:150px;
+  position: relative;
+  bottom:195px;
+  left:310px;
+  text-align: center;
+}

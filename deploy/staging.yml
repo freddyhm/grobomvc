@@ -1,0 +1,16 @@
+    #Required
+    scheme: 
+    host: 
+    username: 
+    password: 
+
+    # Optional
+    path: 
+    exclude:
+        - .gitignore
+        - deploy/
+        - config/development
+        - config/production
+        - config/demo
+        - index.php
+    revision_file: .revision

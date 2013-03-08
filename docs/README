@@ -1,0 +1,80 @@
+
+********************************************
+Growple! v1.1.3 - Saturday, January 26, 2013
+********************************************
+ 
+ FIXES & CHANGES:
+
+-Added Ribbon to menu module 
+-Replaced JS standard alerts with custom alerts and confirmation w/css and script
+-Disabled sleep on growple logo when resetting
+-Disabled sleep when waiting for server 
+
+********************************************
+Growple! v1.1.4 - Tuesday, January 29, 2013
+********************************************
+
+BOOSTS:
+
+#1.1 - Added tooltip to highlight button
+#1.2 - Make cart area bigger to help server and clients
+#1.3 - Anywhere in "green" screen is clickable 
+#1.4 - Change writing to convey server is on their way to take their order and not that order has been sent auto
+#1.5 - Make cart appearance longer in duration 
+#1.6 - Change size of cart tab area (update)
+#1.7 - Cart Ribbon Button (update)
+#1.8 - Make cart names bigger 
+#1.9 - Add numbers to cart items
+#1.10 - Style number + overlay
+#1.11 - Make ribbon more visible
+
+********************************************
+Growple! v1.1.5 - Monday, February 4, 2013
+********************************************
+
+BOOSTS:
+
+#1.1 - Add login screen (disabled due to cache problems)
+#1.2 - Create new DBs, connect to it based on login
+#1.3 - Add McGinnis items
+#1.4 - Change URL for pics after regrouping
+#1.5 - CSS fixes
+#1.6 - Fix cart pics for Mcg
+#1.7 - Update cache manifest 
+#1.8 - Pick new videos for frontrow
+#1.9 - Get cache manifest to update depending on url (disabled)
+
+
+********************************************
+Growple! v1.1.6 - Wednesday, February 6, 2013
+********************************************
+
+BOOSTS:
+
+#1 - Go to home when Video becomes inactive after 10 min, resets when user touches next or pauses video
+#3 - Change "touch this" image, more intuitive
+#4 - Fix cart images, bigger and added name
+#5 - Track changes with analytics
+
+BUGS:
+
+#1 - Added another timer to check if nosleep video is still playing after 3 min.
+
+
+********************************************
+Growple! v1.1.7 - Saturday, February 9, 2013
+********************************************
+
+FEATURES:
+
+#1: Added promo slides
+
+BUGS:
+
+#1: Updated test items with "first" set to false (db showing first when that's not the case) 
+#2: Fixed white screen between menu bckgd pics
+#3: Cached confirm img's
+#4: Disabled sleep timer on first load
+#5: Removed last item becomes undefined condition
+#6: Fixed sleep/slide6.jpg
+#7: Fixed StartAnalytics being called twice
